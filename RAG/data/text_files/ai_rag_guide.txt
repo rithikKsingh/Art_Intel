@@ -1,0 +1,62 @@
+
+        RETRIEVAL AUGMENTED GENERATION (RAG)
+
+            Introduction
+
+            Retrieval Augmented Generation is a technique that combines information retrieval with large language models. Instead of relying only on model training data, the system retrieves relevant documents before generating an answer.
+
+            Core Components
+
+            * Document Loader
+            * Text Splitter
+            * Embedding Model
+            * Vector Database
+            * Retriever
+            * Large Language Model
+
+            Chunking Strategies
+
+            Documents are divided into smaller chunks before generating embeddings.
+
+            Common approaches:
+
+            * Fixed Size Chunking
+            * Recursive Chunking
+            * Semantic Chunking
+            * Structure Aware Chunking
+
+            Vector Databases
+
+            Vector databases store embeddings and enable similarity search.
+
+            Popular choices:
+
+            * ChromaDB
+            * Pinecone
+            * Weaviate
+            * Milvus
+            * FAISS
+
+            Hybrid Search
+
+            Hybrid search combines:
+
+            * Vector Search
+            * Keyword Search
+
+            This often improves retrieval accuracy compared to vector search alone.
+
+            RAG Challenges
+
+            Common challenges include:
+
+            * Poor chunking
+            * Irrelevant retrieval
+            * Hallucinations
+            * Outdated documents
+
+            Conclusion
+
+            RAG systems are widely used in enterprise AI applications to provide accurate answers based on private documents and organizational knowledge.
+
+    
